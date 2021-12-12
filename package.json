@@ -1,0 +1,18 @@
+{
+  "name": "calculator-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "tailwindcss build ./src/style.css -o ./docs/style.css",
+  "prod":"NODE_ENV=production tailwindcss build ./src/style.css -o ./docs/style.css"},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
